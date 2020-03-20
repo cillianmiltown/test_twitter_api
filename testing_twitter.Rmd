@@ -13,7 +13,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{python, include=TRUE}
 
-print("helloworld")
+hello = "Hello Dr McHugh"
+
+print(f"My first words are {hello}")
 
 ```
 
